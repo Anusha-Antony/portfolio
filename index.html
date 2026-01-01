@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anusha Antony | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#f4f6f9;
+  color:#333;
+}
+
+/* NAVBAR */
+nav{
+  background:#0a192f;
+  padding:15px 0;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+nav ul{
+  display:flex;
+  justify-content:center;
+  list-style:none;
+  gap:25px;
+}
+
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-size:15px;
+  font-weight:500;
+}
+
+nav ul li a:hover{
+  color:#64ffda;
+}
+
+/* SECTIONS */
+section{
+  padding:80px 10%;
+}
+
+.section-title{
+  font-size:32px;
+  margin-bottom:30px;
+  color:#0a192f;
+  position:relative;
+}
+
+.section-title::after{
+  content:"";
+  width:60px;
+  height:4px;
+  background:#64ffda;
+  display:block;
+  margin-top:8px;
+}
+
+/* HOME */
+#home{
+  background:linear-gradient(135deg,#0a192f,#112240);
+  color:white;
+  text-align:center;
+  padding:120px 10%;
+}
+
+#home h1{
+  font-size:48px;
+}
+
+#home h3{
+  margin-top:15px;
+  font-weight:400;
+  color:#ccd6f6;
+}
+
+#home p{
+  max-width:650px;
+  margin:20px auto;
+  color:#a8b2d1;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:12px 30px;
+  border:2px solid #64ffda;
+  color:#64ffda;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.btn:hover{
+  background:#64ffda;
+  color:#0a192f;
+}
+
+/* ABOUT */
+.about-content{
+  max-width:900px;
+  line-height:1.8;
+}
+
+/* EDUCATION */
+.edu-box{
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  margin-bottom:20px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* SKILLS */
+.skills-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.skill-box{
+  background:#fff;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* PROJECTS */
+.project{
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  margin-bottom:20px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* CONTACT */
+.contact-box{
+  background:#fff;
+  padding:30px;
+  border-radius:8px;
+  max-width:800px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contact-box p{
+  margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+  background:#0a192f;
+  color:#ccc;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+/* PROFILE IMAGE */
+.home-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.home-image img{
+  width:260px;
+  height:260px;
+  object-fit:cover;
+  border-radius:50%;
+  border:5px solid #64ffda;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  #home h1{
+    font-size:36px;
+  }
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#internship">Internship</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#extracurricular">Activities</a></li>
+    <li><a href="#certifications">Certificates</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <h1>ANUSHA ANTONY</h1>
+  <h3>B.Tech Computer Science & Engineering Student</h3>
+  <p>
+    Passionate about building efficient software solutions and exploring
+    Artificial Intelligence, Web Development, and emerging technologies.
+  </p>
+  <a href="#contact" class="btn">Contact Me</a><br><br><br>
+  <div class="home-image">
+      <img src="profile.jpeg" alt="Anusha Antony Profile Photo">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-content">
+    <p>
+      I am a motivated Computer Science student with strong foundations in
+      programming, web development, and problem-solving. I enjoy turning
+      ideas into real-world applications and actively participate in
+      hackathons, technical events, and innovation programs.
+    </p>
+    <p>
+      My goal is to work in a challenging environment where I can apply my
+      skills, continuously learn new technologies, and contribute to impactful
+      projects.
+    </p>
+    <a href="resume-anusha .pdf" class="btn" download>
+  Download My Resume
+</a>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="edu-box">
+    <h3>B.Tech in Computer Science & Engineering</h3>
+    <p>APJ Abdul Kalam Technological University</p>
+    <p>Expected 2027 | CGPA: 8.61</p>
+  </div>
+
+  <div class="edu-box">
+    <h3>Diploma in Computer Engineering</h3>
+    <p>State Board of Technical Education</p>
+    <p>2022 – 2024 | CGPA: 8.76</p>
+  </div>
+
+  <div class="edu-box">
+    <h3>Plus Two – Biology Science</h3>
+    <p>Kerala Board of Public Examination</p>
+    <p>2020 – 2022 </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-box">
+      <h4>Programming</h4>
+      <p>C, Java, Python</p>
+    </div>
+
+    <div class="skill-box">
+      <h4>Web Technologies</h4>
+      <p>HTML, CSS, Bootstrap</p>
+    </div>
+
+    <div class="skill-box">
+      <h4>Backend</h4>
+      <p>MySQL, PHP, Django, PL/SQL</p>
+    </div>
+
+    <div class="skill-box">
+      <h4>Soft Skills</h4>
+      <p>Problem Solving, Teamwork, Time Management</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project">
+    <h3>Doctor Appointment System</h3>
+    <p>
+      Developed a full-stack web-based Doctor Appointment System designed to
+      simplify and automate the healthcare appointment process. The platform
+      allows patients to register, log in, view doctor availability, and book
+      appointments online in real time. Doctors can manage schedules, approve
+      appointments, and reduce manual workload.
+      <br><br>
+      The system integrates SMS notifications using the Twilio API to send
+      appointment confirmations and reminders, helping minimize no-shows.
+      Built using PHP and MySQL with a responsive user interface, the project
+      focuses on usability, data accuracy, and efficient appointment management.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>BMI Calculator</h3>
+    <p>
+      Designed and developed a responsive BMI Calculator web application that
+      enables users to calculate their Body Mass Index based on height and
+      weight inputs. The system provides instant feedback along with meaningful
+      health insights and personalized food suggestions to support weight
+      management and healthy lifestyle choices.
+      <br><br>
+      Emphasis was placed on a clean user interface, intuitive navigation, and
+      real-time result display. The project demonstrates strong front-end
+      development skills, user-focused design principles, and practical
+      application of health-related calculations.
+    </p>
+  </div>
+</section>
+<!-- INTERNSHIP -->
+<section id="internship">
+  <h2 class="section-title">Internship</h2>
+
+  <div class="project">
+    <h3>Python & Data Science Intern</h3>
+    <p><strong>IPCS Global</strong> | May 2023 – June 2023</p>
+    <p>
+      Completed a hands-on internship focused on Python programming and data
+      analysis. Gained practical experience in writing efficient code using
+      Python fundamentals such as data structures, functions, and control flow.
+      <br><br>
+      Worked with NumPy for data manipulation and Matplotlib for data
+      visualization. Learned foundational concepts in Artificial Intelligence
+      and Machine Learning and implemented basic models using scikit-learn,
+      strengthening analytical and problem-solving skills.
+    </p>
+  </div>
+</section>
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <h2 class="section-title">Achievements</h2>
+
+  <div class="project">
+    <h3>Finalist – STRIDE Makethon 2025</h3>
+    <p>
+      Selected as a finalist for the project <strong>“Smart Period Panty”</strong>,
+      an assistive innovation aimed at supporting menstrual health. Contributed
+      to idea conceptualization, problem analysis, and project presentation as
+      part of a multidisciplinary team.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Participant – TinkerHub Women Hackathon</h3>
+    <p>
+      Participated in a women-focused hackathon emphasizing innovation and
+      collaborative problem-solving. Worked on idea development and prototype
+      creation while enhancing teamwork and technical thinking skills.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Participant – Smart India Hackathon (SIH)</h3>
+    <p>
+      Selected to participate in the Smart India Hackathon, working on real-world
+      problem statements provided by industry and government organizations.
+      Actively contributed to solution ideation, technical discussions, and
+      implementation planning.
+    </p>
+  </div>
+</section>
+<!-- EXTRACURRICULAR -->
+<section id="extracurricular">
+  <h2 class="section-title">Extracurricular Activities</h2>
+
+  <div class="project">
+    <h3>Secretary – Computer Engineering Students Association (CESA)</h3>
+    <p>
+      Played a key leadership role in organizing workshops, technical sessions,
+      and student engagement programs. Coordinated a state-level TechFest,
+      managing events, competitions, and logistics while working closely with
+      faculty and student teams.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>NSS Volunteer</h3>
+    <p>
+      Actively participated in community service initiatives, awareness
+      campaigns, and social responsibility programs, contributing to
+      societal development and teamwork.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Student Leader – PALS (IIT)</h3>
+    <p>
+      Led student initiatives, coordinated academic and extracurricular
+      programs, and facilitated student engagement in learning and leadership
+      activities.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>IEDC Member</h3>
+    <p>
+      Actively involved in innovation-driven activities, supporting idea
+      development, entrepreneurship initiatives, and participation in technical
+      and startup-related events.
+    </p>
+  </div>
+</section>
+  <!-- CERTIFICATIONS -->
+<section id="certifications">
+  <h2 class="section-title">Certifications</h2>
+
+  <div class="project">
+    <h3>Introduction to Machine Learning</h3>
+    <p>
+      NPTEL | July – October 2025<br>
+      Completed a structured course covering the fundamentals of machine
+      learning, including supervised and unsupervised learning techniques.
+      Gained conceptual understanding of model training, evaluation, and
+      real-world applications of machine learning.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Introduction to JavaScript</h3>
+    <p>
+      PupilFirst<br>
+      Acquired a strong foundation in JavaScript programming, including
+      variables, functions, control structures, and DOM manipulation.
+      Developed interactive and dynamic web page functionalities using
+      client-side scripting concepts.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>App Development Using Flutter (3-Day Workshop)</h3>
+    <p>
+      Fawstech Innovations Pvt. Ltd.<br>
+      Participated in an intensive hands-on workshop focused on building
+      cross-platform mobile applications using Flutter.
+      Learned the basics of UI design, widget structure, and application
+      deployment.
+    </p>
+  </div>
+  <div class="project">
+  <h3>AI Skills Passport</h3>
+  <p>
+    EY & Microsoft<br>
+    Completed comprehensive training covering Artificial Intelligence
+    fundamentals along with employability skills in Technology, Sustainability,
+    and Business & Entrepreneurship.
+  </p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+
+  <div class="contact-box">
+    <p><i class="fa-solid fa-envelope"></i><strong> Email:</strong> 
+      <a href="mailto:anushaantony204@gmail.com" target="_blank">
+        anushaantony204@gmail.com
+      </a></p>
+    <p><i class="fa-solid fa-phone"></i><strong> Phone:</strong> <a href="tel:+917306338390">+91 7306338390</a></p>
+    <p><i class="fa-solid fa-location-dot"></i><strong> Location:</strong><a href="tel:+917306338390">Kerala, India</a></p>
+   <p><i class="fa-brands fa-github"></i><strong> GitHub:</strong>
+    <a href="https://github.com/Anusha-Antony" target="_blank">
+         GitHub: https://github.com/Anusha_Antony
+    </a></p>
+    <p><strong><i class="fa-brands fa-linkedin"></i> LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/anusha-antony244" target="_blank">
+         LinkedIn: https://www.linkedin.com/in/Anusha_Antony
+    </a></p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Anusha Antony | Portfolio Website
+</footer>
+
+</body>
+</html>
